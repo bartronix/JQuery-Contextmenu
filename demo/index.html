@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="contextmenu.css">
+<script type="text/javascript" src="jquery-1.10.1.min.js"></script>
+<script type="text/javascript" src="../contextmenu.js"></script>
+<script type="text/javascript">
+	$(function(){
+		var jsonItems = [{title:"link1"},{title:"link2",link:"http://www.google.be",action:function(){alert('test');}},{title:"link3",link:"http://www.google.be",action:function(){alert('test');}}];		
+		$('.container').contextmenu(jsonItems,{ showTitle: true,title: "submenu" });
+	});
+</script>
+</head>
+<body>
+<div class="container">
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+</div>
+</body>
+</html>

@@ -1,0 +1,17 @@
+#ctx-menu{
+	border:1px #858585 outset;
+	background-color:#ffffff;
+	width:200px;
+}
+#ctx-menu a:link, #ctx-menu a:visited, #ctx-menu a:active{
+	display:inline-block;
+	width:200px;
+	height:20px;
+	color:#00b6db;
+	font-weight:bold;
+	text-decoration:none;
+}
+#ctx-menu a:hover{
+	background-color:#c0c0c0;
+}
+#contextmenu-title{font-weight:bold;}
